@@ -57,7 +57,7 @@ jobs:
     - name:  Install
       run:   |
          if [ "$RUNNER_OS" == "Linux" ]; then
-              apt install wayland-devel
+              sudo apt install wayland-devel
          fi
       shell: bash
 
