@@ -11,5 +11,5 @@ include(AddGLFW)
 include(AddGlad)
 include(AddLinMath)
 
-add_executable(glfw_opengl_setup main.cpp)
+add_executable(glfw_opengl_setup src/main.cpp)
 target_link_libraries(glfw_opengl_setup PRIVATE glfw glad linmath)
