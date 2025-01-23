@@ -1,7 +1,5 @@
-FetchContent_Declare(
-        linmath
-        GIT_REPOSITORY https://github.com/datenwolf/linmath.h.git
-)
+FetchContent_Declare(linmath
+                     GIT_REPOSITORY https://github.com/datenwolf/linmath.h.git)
 
 FetchContent_GetProperties(linmath)
 if(NOT linmath_POPULATED)
